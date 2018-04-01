@@ -1,5 +1,6 @@
 {
     "name": "repromise-example-bsb",
     "bs-dependencies": ["repromise"],
-    "sources": "."
+    "sources": ".",
+    "refmt":3
 }
