@@ -1,14 +1,14 @@
 {
-    "name": "repromise-example-bsb",
-    "version": "1.0.0",
-    "license": "MIT",
-    "dependencies": {
-        "bs-platform": "^2.2.3",
-        "node-fetch": "*",
-        "repromise": "github:aantron/repromise"
-    },
-    "scripts": {
-        "build": "bsb -make-world",
-        "test": "node lib/js/main.js"
-    }
+  "name": "repromise-example-bsb",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "bs-platform": "^2.2.3",
+    "node-fetch": "*",
+    "repromise": "github:aantron/repromise"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "test": "node lib/js/main.js"
+  }
 }
