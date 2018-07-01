@@ -1,6 +1,6 @@
 {
   "name": "repromise-example-bsb",
-  "bs-dependencies": ["repromise"],
+  "bs-dependencies": ["@aantron/repromise"],
   "sources": ".",
   "refmt": 3
 }
