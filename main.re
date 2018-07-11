@@ -1,9 +1,7 @@
-let () = {
-  let (p, resolve_p) = Repromise.new_();
+let (p, resolve_p) = Repromise.new_();
 
-  p
-  |> Repromise.map(s => s ++ ", world!")
-  |> Repromise.wait(print_endline);
+p
+|> Repromise.map(s => s ++ ", world!")
+|> Repromise.wait(print_endline);
 
-  resolve_p("Hello");
-};
+resolve_p("Hello");
