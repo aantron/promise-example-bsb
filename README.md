@@ -1,4 +1,4 @@
-# Repromise example repo
+# Repromise example: Hello, world!
 
 To try [Repromise][repromise], clone this repo:
 
@@ -15,7 +15,7 @@ npm run build
 npm run test
 ```
 
-The last command will print `"Hello, world!"`. See [`main.re`][main] for the code!
+This will print `"Hello, world!"`. See [`main.re`][main] for the code!
 
 [repromise]: https://github.com/aantron/repromise
 [main]: https://github.com/aantron/repromise-example-bsb/blob/master/main.re
