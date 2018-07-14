@@ -16,5 +16,8 @@ npm run test
 
 This will print `"Hello, world!"`. See [`main.re`][main] for the code!
 
+See the Repromise API docs, starting from [`Repromise.wait`][wait], for more examples that can be pasted into [`main.re`][main].
+
 [repromise]: https://github.com/aantron/repromise
 [main]: https://github.com/aantron/repromise-example-bsb/blob/master/main.re
+[wait]: https://aantron.github.io/repromise/docs/API#wait
