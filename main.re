@@ -1,4 +1,4 @@
-let (p, resolve_p) = Repromise.new_();
+let (p, resolve_p) = Repromise.make();
 
 p
 |> Repromise.map(s => s ++ ", world!")

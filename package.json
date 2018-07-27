@@ -4,7 +4,7 @@
   "license": "MIT",
   "dependencies": {
     "bs-platform": ">= 3.0.0",
-    "@aantron/repromise": "*"
+    "@aantron/repromise": ">= 0.6.0"
   },
   "scripts": {
     "test": "bsb -make-world && node lib/js/main.js"
