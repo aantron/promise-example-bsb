@@ -1,13 +1,9 @@
-let () = {
-  let (p, resolve) = Promise.pending();
+let (p, resolve) = Promise.pending();
+Js.log(p);
 
-  Js.log(p);
+p
+->Promise.map(s => s ++ " world!")
+->Promise.get(Js.log);
 
-  p
-  ->Promise.map(s => s ++ " world!")
-  ->Promise.get(Js.log);
-
-  resolve("Hello");
-
-  Js.log(p);
-};
+resolve("Hello");
+Js.log(p);
