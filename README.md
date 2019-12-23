@@ -1,10 +1,10 @@
-# Repromise example: Hello, world!
+# reason-promise example: Hello, world!
 
-To try [Repromise][repromise], clone this repo:
+To try [reason-promise][repromise], clone this repo...
 
 ```
-git clone https://github.com/aantron/repromise-example-bsb.git
-cd repromise-example-bsb
+git clone https://github.com/aantron/promise-example-bsb.git
+cd promise-example-bsb
 ```
 
 and do:
@@ -14,13 +14,15 @@ npm install
 npm run test
 ```
 
-This will print `"Hello, world!"`. See [`main.re`][main] for the code!
+This will print
 
-See the Repromise API docs, starting from [`Repromise.wait`][wait], for more examples that can be pasted into [`main.re`][main].
+```
+Promise { <pending> }
+Promise { 'Hello' }
+Hello world!
+```
 
-Or, go to the [sample binding repo][example-binding] to see how to interop with JS promises.
+See [`main.re`][main] for the code.
 
-[repromise]: https://github.com/aantron/repromise
-[main]: https://github.com/aantron/repromise-example-bsb/blob/master/main.re
-[wait]: https://aantron.github.io/repromise/docs/API#wait
-[example-binding]: https://github.com/aantron/repromise-example-binding
+[repromise]: https://github.com/aantron/promise
+[main]: https://github.com/aantron/promise-example-bsb/blob/master/main.re

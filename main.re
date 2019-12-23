@@ -1,7 +1,13 @@
-let (p, resolve_p) = Repromise.make();
+let () = {
+  let (p, resolve) = Promise.pending();
 
-p
-|> Repromise.map(s => s ++ ", world!")
-|> Repromise.wait(print_endline);
+  Js.log(p);
 
-resolve_p("Hello");
+  p
+  ->Promise.map(s => s ++ " world!")
+  ->Promise.get(Js.log);
+
+  resolve("Hello");
+
+  Js.log(p);
+};
